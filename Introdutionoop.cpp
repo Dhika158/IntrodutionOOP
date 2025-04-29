@@ -9,5 +9,7 @@ class Mahasiswa{
 
      void printData(){
         cout << "NIM : " << nim << endl;
+        out << "NAMA : " << nama << endl;
+        out << "NILAI : " << nilai << endl;
      }
 }
