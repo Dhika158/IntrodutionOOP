@@ -13,3 +13,12 @@ class Mahasiswa{
         out << "NILAI : " << nilai << endl;
      }
 }
+
+int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama = Dhika;
+    mhs.nilai = 90.5;
+
+    mhs.printData();
+}
